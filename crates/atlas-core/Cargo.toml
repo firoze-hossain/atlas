@@ -1,0 +1,13 @@
+[package]
+name = "atlas-core"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Core cartography models: Mercator projection, geographic entities, routing graph, POIs, and geocoding"
+
+[features]
+default = ["std"]
+std = []
+
+[dependencies]

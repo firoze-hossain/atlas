@@ -1,0 +1,17 @@
+[package]
+name = "atlas-app"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Atlas sovereign cross-platform desktop CLI and interactive map viewer"
+
+[dependencies]
+atlas-core = { path = "../atlas-core" }
+atlas-render = { path = "../atlas-render" }
+atlas-ui = { path = "../atlas-ui" }
+atlas-platform = { path = "../atlas-platform" }
+
+[[bin]]
+name = "atlas"
+path = "src/main.rs"

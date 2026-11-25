@@ -1,0 +1,22 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/atlas-core",
+    "crates/atlas-render",
+    "crates/atlas-ui",
+    "crates/atlas-platform",
+    "crates/atlas-app",
+]
+
+[workspace.package]
+version = "1.0.0"
+edition = "2021"
+authors = ["NovaOS Enterprise Architecture Team"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/firoze-hossain/atlas"
+description = "Atlas Sovereign Vector Maps, Navigation & Geographic Information Engine"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1

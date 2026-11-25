@@ -1,0 +1,15 @@
+[package]
+name = "atlas-ui"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "macOS Maps synthesized UI components: acrylic floating panel, search drawer, POI inspector, and map controls"
+
+[features]
+default = ["std"]
+std = []
+
+[dependencies]
+atlas-core = { path = "../atlas-core" }
+atlas-render = { path = "../atlas-render" }
