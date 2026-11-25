@@ -220,7 +220,7 @@ impl MapUiRenderer {
     }
 
     /// Renders Find Nearby Category Drawer (Screenshot 11.07.55).
-    fn render_nearby_drawer(surface: &mut CanvasSurface, state: &MapState) {
+    fn render_nearby_drawer(surface: &mut CanvasSurface, _state: &MapState) {
         let panel_x = 18;
         let panel_y = 18;
         let panel_w = 320;

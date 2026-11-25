@@ -16,7 +16,6 @@ use alloc::{
 
 #[cfg(feature = "std")]
 use std::{
-    string::String,
     vec,
     vec::Vec,
 };

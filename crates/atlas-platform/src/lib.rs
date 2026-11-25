@@ -4,12 +4,6 @@
 #[cfg(not(feature = "std"))]
 extern crate alloc;
 
-#[cfg(not(feature = "std"))]
-use alloc::string::String;
-
-#[cfg(feature = "std")]
-use std::string::String;
-
 pub use atlas_core::GeoCoord;
 
 /// GPS Fix quality state.
